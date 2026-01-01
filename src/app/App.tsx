@@ -352,6 +352,15 @@ export default function App() {
               You have invested <strong>$40,000+</strong> in your degree.<br />
               Don't let a <strong className="text-[#00D1C2]">$345</strong> knowledge gap cost you a <strong className="text-[#F93A20]">$90,000</strong> career.
             </p>
+
+            <div className="pt-8 flex justify-center">
+              <Button
+                onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-[#01253A] hover:bg-[#01253A]/90 text-white px-12 py-7 text-xl"
+              >
+                Secure Your Financial Future
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -376,7 +385,7 @@ export default function App() {
                   {[
                     {
                       stage: "Stage 1: The Resume",
-                      result: 'Submits a generic CV. Jeremiah rejects it in 6 seconds because it focuses on "tasks" not "outcomes."',
+                      result: 'Submits a generic CV. The hiring manager rejects it in 6 seconds because it focuses on "tasks" not "outcomes."',
                     },
                     {
                       stage: "Stage 2: The Test",
@@ -410,7 +419,7 @@ export default function App() {
                   {[
                     {
                       stage: "Stage 1: The Resume",
-                      result: 'Uses the Grad Stack ATS Framework. Passes the robot filters. Jeremiah reads it and flags it for review.',
+                      result: 'Uses the Grad Stack ATS Framework. Passes the robot filters. The hiring manager reads it and flags it for review.',
                     },
                     {
                       stage: "Stage 2: The Test",
@@ -418,7 +427,7 @@ export default function App() {
                     },
                     {
                       stage: "Stage 3: The Video",
-                      result: "Uses Sam Sperling's STAR structure. Hits the key commercial keywords. Looks confident. SHORTLISTED.",
+                      result: "Uses the STAR method. Hits the key commercial keywords. Looks confident. SHORTLISTED.",
                     },
                   ].map((item, index) => (
                     <div key={index} className="border-l-4 border-[#00D1C2] pl-4">
