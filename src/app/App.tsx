@@ -454,7 +454,7 @@ export default function App() {
               What You Actually Get Inside.
             </h2>
             <p className="text-xl text-center text-gray-300 mb-16">
-              5 modules. 27 videos. The exact playbook hiring managers use to evaluate you.
+              5 modules. 20 videos. The exact playbook hiring managers use to evaluate you.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -593,7 +593,7 @@ export default function App() {
                 subtitle="For the self-starter."
                 price="197"
                 features={[
-                  "Premium Video Course (27 videos, 5 modules):",
+                  "Premium Video Course (20 videos, 5 modules):",
                   "• How Grad Programs Work",
                   "• Resumes, Cover Letters & ATS",
                   "• Phone & Video Screenings",
