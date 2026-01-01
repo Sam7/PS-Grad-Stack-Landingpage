@@ -53,8 +53,19 @@ export default function App() {
         </div>
       </header>
 
+      {/* Context Banner - What This Is */}
+      <section className="bg-gradient-to-r from-[#00D1C2]/5 via-[#00D1C2]/10 to-[#00D1C2]/5 border-b border-[#00D1C2]/20 py-6">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto text-center">
+            <p className="text-[#01253A] text-lg sm:text-xl leading-relaxed">
+              <strong className="text-[#00D1C2]">Grad Stack</strong> is the only course designed by real hiring managers to help Australian university students <strong className="text-[#01253A]">secure competitive graduate program positions</strong> in Banking, Consulting, Government, and Technology for the 2027 intake.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
-      <section className="bg-white py-12 sm:py-20 lg:py-24">
+      <section className="bg-white py-4 sm:py-6 lg:py-8">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-[45%_55%] gap-8 lg:gap-12 items-center max-w-7xl mx-auto">
             {/* Left Column - Headline & CTA */}
