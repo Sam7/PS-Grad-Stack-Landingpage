@@ -261,14 +261,14 @@ export default function App() {
             {/* Main Leaders */}
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <ProfileCard
-                name="Jeremiah Burns"
-                title="Co-Founder, People Squad | Hiring Manager, NAB"
-                quote="I've reviewed thousands of grad applications. I know exactly why I put one in the 'Yes' pile and ten in the 'No' pile. In this course, I tell you the difference."
+                name="Jeremiah Byrnes"
+                title="Hiring Manager, NAB | Co-Founder, People Squad"
+                quote="I've reviewed endless of applications. I know exactly why I put one in the 'Yes' pile and ten in the 'No' pile. In this course, I tell you the difference."
                 imageUrl={jeremiahImage}
               />
               <ProfileCard
                 name="Sam Sperling"
-                title="Co-Founder, People Squad | Hiring Manager, Woolworths | 25-Year IT Veteran"
+                title="Hiring Manager, Woolworths | Co-Founder, People Squad | 25-Year IT Veteran"
                 quote="Technical skills get you the degree. Commercial skills get you the job. I break down what IT managers actually look for beyond your coding ability."
                 imageUrl={samImage}
               />
