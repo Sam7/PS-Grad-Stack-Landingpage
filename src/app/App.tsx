@@ -738,17 +738,6 @@ export default function App() {
             </h2>
             
             <Accordion type="single" collapsible className="space-y-4">
-              <AccordionItem value="item-1" className="bg-white border border-gray-200 rounded-lg px-6">
-                <AccordionTrigger className="text-[#01253A] text-left hover:text-[#00D1C2]">
-                  "Can't I just find this info on Google?"
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  You can find <em>generic</em> advice on Google. You can find "top 10 interview tips."
-                  You <strong>cannot</strong> find the specific scoring matrix used by a NAB hiring manager, or a verified ATS simulator that tells you if your resume is readable by 2026 bots.
-                  You are paying for <strong>certainty</strong>.
-                </AccordionContent>
-              </AccordionItem>
-
               <AccordionItem value="item-2" className="bg-white border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-[#01253A] text-left hover:text-[#00D1C2]">
                   "I have good grades. Do I need this?"
